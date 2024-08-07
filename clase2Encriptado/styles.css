@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./IMG/NeonP1.jpeg');
+    background-size:cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor1 {
+    max-width: 600px;
+    margin: 50px auto;
+    background-image: url('./IMG/neon4.jpeg');
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px #270062;
+    padding: 20px;
+    text-align: center;
+    
+}
+.contenedor2 {
+    max-width: 600px;
+    margin: 50px auto;
+    background-image: url('./IMG/neon2.jpeg');
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px #ab1f00;
+    padding: 20px;
+    text-align: center;
+}
+
+.Paginas {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.Paginas a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.otraPagina {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 3px #270062 , -3px -3px 3px #270062 ;
+}
+
+.otraPagina:hover {
+    background-color: #4100a3;
+    box-shadow: 1px 1px 3px #270062 , -1px -1px 3px #270062 ;
+}
+
+.estaPagina {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 3px #c12300  , -3px -3px 3px #c12300  ;
+}
+
+.estaPagina:hover {
+    background-color: #c12300;
+    box-shadow: 1px 1px 3px #ab1f00, -1px -1px 3px #ab1f00;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    color: white;
+    background-color: rgba(113, 113, 113, 0.396); 
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.buttonCifrar {
+    background-color: #4100a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonCifrar:hover {
+    background-color: #270062;
+}
+
+.buttonDecifrar {
+    background-color: #cd2600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonDecifrar:hover {
+    background-color: #a11d00;
+}
+
+.contenedorRespuesta {
+    color: white;
+    background-color: rgba(113, 113, 113, 0.396);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    word-wrap: break-word;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+h3{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
